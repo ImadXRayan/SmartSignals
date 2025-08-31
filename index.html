@@ -3,125 +3,162 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Imad AI Signals | إشارات تداول الذهب والنفط والفوركس</title>
-  <meta name="description" content="إشارات تداول لحظية مدعومة بالذكاء الاصطناعي: ذهب، نفط، فوركس وكريبتو. انضم لقناة التيليغرام لتصلك الإشعارات بالصور والأسعار ووقف الخسارة وجني الأرباح.">
-  <meta property="og:title" content="Imad AI Signals" />
-  <meta property="og:description" content="إشارات تداول لحظية مدعومة بالذكاء الاصطناعي." />
-  <meta property="og:image" content="https://images.unsplash.com/photo-1567427013953-565ff0c85c83?q=80&w=1200&auto=format&fit=crop" />
+  <title>Smart Signals By Lina AI | إدارة التداول بالذكاء الاصطناعي</title>
+  <meta name="description" content="إشارات تداول مدعومة بالذكاء الاصطناعي: ذهب، نفط، عملات، كريبتو وفوركس. تحليلات سريعة + إشارات لحظية. تابع القناة المجانية على تيليغرام." />
+  <meta property="og:title" content="Smart Signals By Lina AI" />
+  <meta property="og:description" content="إشارات تداول لحظية بالذكاء الاصطناعي · ذهب · نفط · فوركس · كريبتو" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1610375229739-6d6157c125c7?q=80&w=1600&auto=format&fit=crop" />
   <meta property="og:type" content="website" />
-  <meta name="theme-color" content="#0a84ff" />
+  <meta name="theme-color" content="#10B981" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root{
-      --bg:#0f1220; --card:#171b2e; --soft:#222741; --text:#e8ebff; --muted:#a7b0d9; --accent:#0a84ff; --ok:#1ecb7f; --warn:#ff4d4f;
+      --bg:#0a0c12; --bg2:#0b1020; --text:#EAF2FF; --muted:#9DB1D9; --glass:#0f1426cc;
+      --accent:#22D3EE; --accent2:#A78BFA; --success:#22c55e; --warn:#ef4444; --card:#0f1426;
+      --border:#1f2a44; --shadow:0 20px 70px rgba(0,0,0,.45);
     }
     *{box-sizing:border-box}
-    body{margin:0;font-family:"Cairo",system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#0b0e1a 0%,#0f1220 100%);color:var(--text)}
+    html,body{margin:0;padding:0;background: radial-gradient(1200px 600px at 100% -20%,#112044,transparent),
+                                      radial-gradient(1000px 500px at -10% 120%,#1b0f2e,transparent),
+                                      linear-gradient(180deg,var(--bg),var(--bg2));
+              color:var(--text); font-family:"Cairo",system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
     a{color:inherit;text-decoration:none}
-    .container{max-width:1100px;margin:auto;padding:24px}
-    .nav{display:flex;align-items:center;justify-content:space-between;padding:8px 0}
-    .brand{display:flex;gap:10px;align-items:center}
-    .logo{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,#ffd166,#fca311);display:grid;place-items:center;font-weight:800;color:#1b1b1b}
-    .nav a.btn{padding:10px 14px;background:var(--accent);border-radius:10px;font-weight:700}
-    .hero{display:grid;grid-template-columns:1.15fr 1fr;gap:24px;align-items:center;margin-top:10px}
-    .card{background:var(--card);border:1px solid #22263d;border-radius:18px;box-shadow:0 6px 30px rgba(0,0,0,.25)}
-    .hero-copy{padding:28px}
-    h1{font-size:34px;line-height:1.2;margin:0 0 10px}
-    .lead{color:var(--muted);margin:0 0 16px}
-    .badges{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 20px}
-    .badge{background:var(--soft);padding:8px 12px;border-radius:12px;font-weight:600;font-size:14px;border:1px solid #2b3156}
+    .container{max-width:1180px;margin:auto;padding:22px}
+    /* NAV */
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;
+          background: conic-gradient(from 120deg,#1de5ff,#8a5cff,#1de5ff);
+          color:#0a0c12;font-weight:900;letter-spacing:.5px;box-shadow:0 8px 30px rgba(34,211,238,.35)}
+    .brand-title{font-weight:800;font-size:18px}
+    .nav-cta{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{padding:10px 14px;border:1px solid var(--border);border-radius:12px;background:rgba(255,255,255,.02);backdrop-filter: blur(8px)}
+    .btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#081018;border:0;font-weight:900}
+    .btn.ghost{border-color:#2a365d}
+    /* HERO */
+    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;align-items:center;margin-top:16px}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.02));
+          border:1px solid var(--border); border-radius:18px; box-shadow:var(--shadow)}
+    .hero-copy{padding:28px 26px}
+    .glow{position:relative}
+    .glow:before{content:"";position:absolute;inset:-2px;border-radius:20px;padding:2px;background:
+        linear-gradient(120deg,rgba(34,211,238,.8),rgba(167,139,250,.5),rgba(34,211,238,.8));
+        -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);
+        -webkit-mask-composite:xor; mask-composite:exclude; filter:blur(.3px); opacity:.7}
+    h1{margin:0 0 10px;font-size:36px;line-height:1.25}
+    .kicker{display:inline-flex;gap:8px;align-items:center;background:rgba(34,211,238,.1);color:var(--accent);
+            border:1px solid rgba(34,211,238,.25);padding:6px 10px;border-radius:999px;font-weight:700;font-size:14px}
+    .lead{color:var(--muted);margin:10px 0 16px}
+    .badges{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 20px}
+    .badge{background:rgba(255,255,255,.04);border:1px solid var(--border);padding:8px 12px;border-radius:12px;font-weight:700;font-size:14px}
     .cta{display:flex;gap:12px;flex-wrap:wrap}
-    .button{padding:12px 16px;border-radius:12px;font-weight:800;border:2px solid transparent}
-    .button.primary{background:var(--ok);color:#032814}
-    .button.secondary{background:transparent;border-color:#2b3156}
-    .social{display:flex;gap:10px;margin-top:8px}
-    .hero-img{overflow:hidden}
-    .hero-img img{width:100%;height:100%;object-fit:cover;border-radius:18px;display:block;filter:contrast(1.05) saturate(1.1)}
-    .section{margin-top:34px}
-    .section h2{font-size:24px;margin:0 0 14px}
+    .social{display:flex;gap:10px;margin-top:6px;flex-wrap:wrap}
+    .hero-img{overflow:hidden;position:relative}
+    .hero-img img{width:100%;height:100%;object-fit:cover;display:block;filter:contrast(1.05) saturate(1.06)}
+    .blob{position:absolute;inset:auto;left:10%;top:12%;width:220px;height:220px;border-radius:50%;
+          background:radial-gradient(circle at 30% 30%,rgba(34,211,238,.35),transparent 60%),
+                     radial-gradient(circle at 70% 70%,rgba(167,139,250,.25),transparent 60%);
+          filter: blur(30px);opacity:.7;pointer-events:none}
+
+    /* FEATURES */
+    .section{margin-top:36px}
+    .section h2{font-size:26px;margin:0 0 14px}
     .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
     .feat{padding:18px}
     .feat h3{margin:0 0 6px}
+
+    /* SIGNALS */
     .signals{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-    .sig{padding:16px;position:relative;border-left:4px solid var(--ok)}
-    .sig.sell{border-left-color:var(--warn)}
-    .sig .pair{font-weight:800}
+    .sig{padding:16px;position:relative;border-right:4px solid var(--success)}
+    .sig.sell{border-right-color:var(--warn)}
+    .sig .pair{font-weight:900}
     .sig small{color:var(--muted)}
-    .sig .levels{margin-top:8px;display:grid;gap:4px}
+    .levels{margin-top:8px;display:grid;gap:4px}
+
+    /* STRIP */
     .join-strip{margin-top:22px;padding:16px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
-    .footer{margin:26px 0 10px;color:#7f89b8;font-size:14px;text-align:center}
-    /* responsive */
-    @media (max-width:980px){
-      .hero{grid-template-columns:1fr}
-      .grid,.signals{grid-template-columns:1fr 1fr}
-    }
-    @media (max-width:620px){
-      .grid,.signals{grid-template-columns:1fr}
-      h1{font-size:28px}
-    }
-    /* hover */
-    .button:hover{transform:translateY(-2px);transition:.2s}
+
+    /* FOOTER */
+    .footer{margin:30px 0 10px;color:#8aa0d1;font-size:14px;text-align:center}
+
+    /* RESPONSIVE */
+    @media (max-width:1020px){ .hero{grid-template-columns:1fr} .grid,.signals{grid-template-columns:1fr 1fr} }
+    @media (max-width:640px){ .grid,.signals{grid-template-columns:1fr} h1{font-size:28px} }
+
+    /* MICRO-ANIMATIONS */
+    .btn:hover{transform:translateY(-2px);transition:.2s}
+    .badge{transition:transform .15s ease}
+    .badge:hover{transform:translateY(-2px) scale(1.02)}
   </style>
 </head>
 <body>
   <div class="container">
-    <!-- Nav -->
-    <div class="nav">
+    <!-- NAV -->
+    <nav class="nav">
       <div class="brand">
         <div class="logo">AI</div>
-        <strong>Imad AI Signals</strong>
+        <div class="brand-title">Smart Signals By Lina AI — إدارة التداول</div>
       </div>
-      <a class="btn" href="YOUR_TELEGRAM_LINK" target="_blank" rel="noopener">انضم لقناة التيليغرام</a>
-    </div>
+      <div class="nav-cta">
+        <a class="btn ghost" href="https://www.tiktok.com/@SignalsByLinaAI" target="_blank" rel="noopener">TikTok</a>
+        <a class="btn primary" href="https://t.me/SignalsByLinaAI" target="_blank" rel="noopener">انضم لقناة تيليغرام</a>
+      </div>
+    </nav>
 
-    <!-- Hero -->
-    <div class="hero">
-      <div class="card hero-copy">
-        <h1>إشارات تداول لحظية بالذكاء الاصطناعي: <span style="color:#ffd166">ذهب</span> · <span style="color:#90e0ef">نفط</span> · <span style="color:#a0e7a0">فوركس</span></h1>
-        <p class="lead">تنبيهات فورية مع صورة الشارت، سعر الدخول، وقف الخسارة، وجني الأرباح. ابدأ مجانًا وارتقِ لاحقًا إلى قناة VIP.</p>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="card glow hero-copy">
+        <span class="kicker">🤖📈 ذكاء اصطناعي · Web3</span>
+        <h1>
+          إشارات تداول مدعومة بالذكاء الاصطناعي —
+          <span style="background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent">سريعة، ذكية، ومباشرة</span>
+        </h1>
+        <p class="lead">
+          💰 ذهب | نفط | عملات | كريبتو | فوركس — ⚡️ تحليلات سريعة + إشارات لحظية — 🔔 تابع لتكون أول من يقتنص الفرص!
+        </p>
         <div class="badges">
           <div class="badge">⏱️ لحظي</div>
-          <div class="badge">🧠 AI Powered</div>
-          <div class="badge">📊 Charts</div>
-          <div class="badge">🟢/🔴 Buy & Sell</div>
+          <div class="badge">🧠 AI Signals</div>
+          <div class="badge">🧮 إدارة مخاطر</div>
+          <div class="badge">📊 صور وتشارت</div>
         </div>
         <div class="cta">
-          <a class="button primary" href="YOUR_TELEGRAM_LINK" target="_blank" rel="noopener">انضم الآن إلى التيليغرام</a>
-          <a class="button secondary" href="#signals">شاهد أمثلة الإشارات</a>
+          <a class="btn primary" href="https://t.me/SignalsByLinaAI" target="_blank" rel="noopener">انضم الآن إلى القناة المجانية</a>
+          <a class="btn" href="#signals">شاهد أمثلة الإشارات</a>
         </div>
         <div class="social">
-          <a class="badge" href="YOUR_TIKTOK_LINK" target="_blank" rel="noopener">TikTok</a>
-          <a class="badge" href="YOUR_INSTAGRAM_LINK" target="_blank" rel="noopener">Instagram</a>
-          <a class="badge" href="mailto:hello@example.com?subject=اشتراك%20VIP%20Imad%20Signals">تواصل للباقات VIP</a>
+          <a class="badge" href="https://t.me/SignalsByLinaAI" target="_blank" rel="noopener">Telegram: @SignalsByLinaAI</a>
+          <a class="badge" href="https://www.tiktok.com/@SignalsByLinaAI" target="_blank" rel="noopener">TikTok: SignalsByLinaAI</a>
         </div>
       </div>
       <div class="card hero-img">
-        <img src="https://images.unsplash.com/photo-1610375229739-6d6157c125c7?q=80&w=1200&auto=format&fit=crop" alt="Gold & Markets">
+        <img src="https://images.unsplash.com/photo-1610375229739-6d6157c125c7?q=80&w=1600&auto=format&fit=crop" alt="Gold & Markets" />
+        <div class="blob"></div>
       </div>
-    </div>
+    </section>
 
-    <!-- Why us -->
-    <div class="section">
-      <h2>لماذا Imad AI Signals؟</h2>
+    <!-- WHY / FEATURES -->
+    <section class="section">
+      <h2>ليش Smart Signals By Lina AI؟</h2>
       <div class="grid">
-        <div class="card feat">
+        <article class="card feat">
           <h3>ذكاء اصطناعي + قواعد تداول</h3>
-          <p>دمج مؤشرات (ATR/RSI/MACD/ADX) مع فلترة نماذج الشموع لاستخراج فرص عالية الجودة.</p>
-        </div>
-        <div class="card feat">
-          <h3>تنبيهات سريعة مع صور</h3>
-          <p>توصلك الإشارة إلى التيليغرام مرفقة بصورة الشارت لقراءة سريعة وواضحة.</p>
-        </div>
-        <div class="card feat">
+          <p>محرك إشارات يجمع مؤشرات (ATR/RSI/MACD/ADX) مع قراءة نماذج الشموع لتصفية الإشارات منخفضة الجودة ورفع الدقة.</p>
+        </article>
+        <article class="card feat">
+          <h3>تنبيهات لحظية بصريّة</h3>
+          <p>الإشارة توصلك على التيليغرام مرفقة بصورة الشارت، مستويات الدخول/الهدف/الوقف، ونسبة العائد للمخاطرة.</p>
+        </article>
+        <article class="card feat">
           <h3>شفافية وإدارة مخاطر</h3>
-          <p>ذكر واضح لـ SL/TP ونِسب R:R، مع ملخص أسبوعي لأبرز النتائج.</p>
-        </div>
+          <p>نشر ملخصات أسبوعية للأداء وأفضل الصفقات، مع توضيح أسلوب إدارة رأس المال والتريلينغ.</p>
+        </article>
       </div>
-    </div>
+    </section>
 
-    <!-- Sample signals -->
-    <div id="signals" class="section">
+    <!-- SAMPLE SIGNALS -->
+    <section id="signals" class="section">
       <h2>أمثلة إشارات حديثة</h2>
       <div class="signals">
         <div class="card sig">
@@ -153,45 +190,39 @@
         </div>
       </div>
       <div class="card join-strip">
-        <div><strong>بدك توصلك الإشارات أولًا بأول؟</strong><br><span style="color:var(--muted)">انضم للقناة المجانية وتجربة VIP لاحقًا.</span></div>
-        <a class="button primary" href="YOUR_TELEGRAM_LINK" target="_blank" rel="noopener">انضم لقناة التيليغرام</a>
+        <div>
+          <strong>بدك توصلك الإشارات أولًا بأول؟</strong><br />
+          <span style="color:var(--muted)">انضم للقناة المجانية وجرّب أسلوبنا الذكي.</span>
+        </div>
+        <a class="btn primary" href="https://t.me/SignalsByLinaAI" target="_blank" rel="noopener">انضم لقناة التيليغرام</a>
       </div>
-    </div>
+    </section>
 
-    <!-- FAQ -->
-    <div class="section">
-      <h2>الأسئلة الشائعة</h2>
-      <div class="grid">
-        <div class="card feat">
-          <h3>هل القناة مجانية؟</h3>
-          <p>نعم، قناة عامة مجانية، مع باقة VIP بإشارات أكثر تفصيلًا وإدارة مخاطر أدق.</p>
+    <!-- CTA -->
+    <section class="section">
+      <div class="card" style="padding:18px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap">
+        <div>
+          <div style="font-weight:800;font-size:18px">ابدأ الرحلة — مجانًا اليوم</div>
+          <div style="color:var(--muted)">إشارات لحظية، تحليلات واضحة، وإدارة مخاطر محسّنة. ترقية لاحقة لقناة VIP عند الحاجة.</div>
         </div>
-        <div class="card feat">
-          <h3>هل في نتائج موثقة؟</h3>
-          <p>ننشر ملخصات أسبوعية بالصفقات الموثقة وأمثلة صور من الشارت.</p>
-        </div>
-        <div class="card feat">
-          <h3>كيف أشترك في VIP؟</h3>
-          <p>راسلنا عبر البريد أو التليغرام، ورح يصلك رابط الدفع والانضمام التلقائي.</p>
+        <div class="nav-cta">
+          <a class="btn ghost" href="https://www.tiktok.com/@SignalsByLinaAI" target="_blank" rel="noopener">تابعنا على TikTok</a>
+          <a class="btn primary" href="https://t.me/SignalsByLinaAI" target="_blank" rel="noopener">انضم لتيليغرام الآن</a>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Footer -->
-    <div class="footer">
-      © <span id="y"></span> Imad AI Signals — كل الحقوق محفوظة · هذا ليس نصيحة استثمارية
-    </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+      © <span id="y"></span> Smart Signals By Lina AI — كل الحقوق محفوظة · هذا ليس نصيحة استثمارية
+    </footer>
   </div>
 
   <script>
-    // سنة تلقائية بالفوتر + تتبّع بسيط للنقرات
+    // سنة تلقائية + تتبع بسيط للنقرات
     document.getElementById('y').textContent = new Date().getFullYear();
-    function track(label){
-      try{ localStorage.setItem('click_'+label, Date.now()); }catch(e){}
-    }
-    document.querySelectorAll('a').forEach(a=>{
-      a.addEventListener('click', ()=>track(a.textContent.trim()))
-    })
+    function track(label){ try{ localStorage.setItem('click_'+label, Date.now()); }catch(e){} }
+    document.querySelectorAll('a').forEach(a=>{ a.addEventListener('click', ()=>track(a.textContent.trim())) })
   </script>
 </body>
 </html>
